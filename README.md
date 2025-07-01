@@ -81,14 +81,18 @@ Use sidebar options: "Upload Document" (PDF/DOCX), "Ingest Web Link (URL)", "Ing
 Choose "Add to existing" or "Clear existing & ingest new".
 
 ## Example 1: Upload Document
+![](output_images/pdf_ingest.png)
+## Asking a Question
+![](output_images/pdf_response.png)
 
-Example: Asking a Question
-
-Ask Questions: Type questions in the chat box.
 
 Clear Chat History: Button at bottom clears chat, not knowledge base.
 
-Clear Knowledge Base: "Manually Clear Knowledge Base" button in sidebar.
+## Example 2: Upload Url
+![](output_images/url_ingest.png)
+## Asking a Question
+![](output_images/url_response.png)
+
 
 🛑 Troubleshooting
 ModuleNotFoundError: Reinstall packages, recreate venv.
