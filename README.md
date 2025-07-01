@@ -1,8 +1,8 @@
 
 # 🧠 Smart Q&A System
 A RAG-powered Q&A system using FastAPI and Streamlit, leveraging Google's Generative AI. Ingest documents, web links, and CSVs to ask natural language questions.
-![](output_images/web_layout.png)
-![](output_images/pdf_ingest.png)
+![](output_images/web_layout1.png)
+
 ✨ Features
 Multi-Source Ingestion: Upload PDFs, Word documents (.docx), ingest web URLs, and CSV files.
 
