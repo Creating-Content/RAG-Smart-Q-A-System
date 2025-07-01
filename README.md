@@ -52,8 +52,10 @@ pip
 Steps
 Clone/Navigate to Project:
 
+```
 git clone <repository_url>
 cd Smart_QA_System
+```
 
 Create and Activate Virtual Environment:
 
