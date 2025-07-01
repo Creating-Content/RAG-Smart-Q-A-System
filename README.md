@@ -15,6 +15,7 @@ Knowledge Base Management: Option to clear all ingested data.
 User-Friendly Interface: Intuitive web UI built with Streamlit.
 
 🚀 Technologies Used
+```
 Backend (FastAPI):
 FastAPI: Web API framework.
 LangChain: LLM orchestration.
@@ -26,10 +27,12 @@ Unstructured: Document parsing (.docx).
 Pandas: CSV processing.
 Uvicorn: ASGI server.
 python-dotenv, python-multipart.
-
+```
+```
 Frontend (Streamlit):
 Streamlit: Web app UI.
 Requests: HTTP client.
+```
 🛠️ Setup and Installation
 Prerequisites
 Python 3.9+
