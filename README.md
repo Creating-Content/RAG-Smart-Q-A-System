@@ -16,33 +16,20 @@ User-Friendly Interface: Intuitive web UI built with Streamlit.
 
 🚀 Technologies Used
 Backend (FastAPI):
-
 FastAPI: Web API framework.
-
 LangChain: LLM orchestration.
-
 langchain-google-genai: Google Gemini integration.
-
 langchain-chroma: ChromaDB integration.
-
 langchain-community: Document loaders.
-
 ChromaDB: Local vector database.
-
 Unstructured: Document parsing (.docx).
-
 Pandas: CSV processing.
-
 Uvicorn: ASGI server.
-
 python-dotenv, python-multipart.
 
 Frontend (Streamlit):
-
 Streamlit: Web app UI.
-
 Requests: HTTP client.
-
 🛠️ Setup and Installation
 Prerequisites
 Python 3.9+
@@ -53,38 +40,39 @@ Steps
 Clone/Navigate to Project:
 
 ```
-git clone <repository_url>
+git clone https://github.com/Creating-Content/RAG-Smart-QA-System
 cd Smart_QA_System
 ```
 
 Create and Activate Virtual Environment:
-
+```
 python -m venv venv
 .\venv\Scripts\activate # Windows PowerShell
 # source venv/bin/activate # macOS/Linux
+```
 
 Install Required Python Packages:
-
+```
 pip install fastapi uvicorn python-dotenv pandas langchain-community langchain-google-genai "unstructured[docx]" python-magic-bin streamlit requests chromadb langchain-chroma
-
+```
 Set Up Google Gemini API Key:
 Create .env in project root:
-
+```
 GOOGLE_API_KEY="YOUR_GEMINI_API_KEY_HERE"
-
+```
 🏃 How to Run the Application
 Run backend and frontend in separate terminals.
 
 Start FastAPI Backend:
-
+```
 .\venv\Scripts\activate
 uvicorn main:app --host 0.0.0.0 --port 8000
-
+```
 Start Streamlit Frontend:
-
+```
 .\venv\Scripts\activate
 streamlit run streamlit_app.py
-
+```
 💡 How to Use the Application
 Ingest Knowledge:
 
@@ -92,7 +80,7 @@ Use sidebar options: "Upload Document" (PDF/DOCX), "Ingest Web Link (URL)", "Ing
 
 Choose "Add to existing" or "Clear existing & ingest new".
 
-Example: Upload Document
+## Example 1: Upload Document
 
 Example: Asking a Question
 
